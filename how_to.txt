@@ -1,0 +1,12 @@
+Dans un premier temps,
+
+Télécharger ansible,
+Se placer dans etc/ansible
+
+ansible-playbook project.yml
+Créer le project.yml => Créer les deux VM sous AWS
+
+Dans la VM git,
+En ssh(se mettre dans le fichier où les clé sont ebnregistrés), install docker et docker-compose
+Dans notre dossier gitlbas, créer docker-compose.yml 
+lancer avec docker-compose.yml up -d 
